@@ -14,21 +14,21 @@ type
   end;
 
   TFerrari = class(TCar)
-    function Power: Integer; override;
-    function Design: string; override;
-    function Color: TColor; override;
+    function Power: Integer; 
+    function Design: string; 
+    function Color: TColor; 
   end;
 
   TPorsche = class(TCar)
-    function Power: Integer; override;
-    function Design: string; override;
-    function Color: TColor; override;
+    function Power: Integer;
+    function Design: string; 
+    function Color: TColor;
   end;
 
   TChrysler = class(TCar)
-    function Power: Integer; override;
-    function Design: string; override;
-    function Color: TColor; override;
+    function Power: Integer; 
+    function Design: string; 
+    function Color: TColor; 
   end;
 
 implementation
